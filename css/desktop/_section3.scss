@@ -1,0 +1,54 @@
+section{
+    .main_container_tree{
+        width: 99.9%;
+        height: 82.9vh;
+        display: flex;
+        .Graphic_design{
+            width: 50%;
+            background: white;
+            background-image: url('/images/desktop/image-graphic-design.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            h1{
+                padding-top: 320px;
+                padding-left: 210px;
+                font-size: 25px;
+                font-family: $font_fraunces;
+                color: $DarkDoderate;
+            }
+            p{
+                font-family: $font_barlow;
+                padding-top: 25px;
+                padding-left: 20px;
+                text-align: center;
+                color: rgb(115, 112, 112);
+                line-height: 1.5;
+                color: $DarkDoderate;
+            }
+        }
+        .Photography{
+            width: 50%;
+            background: white;
+            background-image: url('/images/desktop/image-photography.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            h1{
+                padding-top: 320px;
+                padding-left: 230px;
+                font-size: 25px;
+                font-family: $font_fraunces;
+                color: $DarkBlue;
+                
+            }
+            p{
+                font-family: $font_barlow;
+                padding-top: 25px;
+                padding-left: 30px;
+                text-align: center;
+                color: rgb(115, 112, 112);
+                line-height: 1.5;
+                color: $DarkBlue;
+            }
+        }
+    }
+}

@@ -1,0 +1,45 @@
+section{
+    .text{
+        width: 100%;
+        height: 20vh;
+        text-align: center;
+        font-family: $font_fraunces;
+        font-size: 25px;
+        padding-top: 60px;
+        color: $GrayishBlue;
+    }
+    .main_container_four{
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        text-align: center;
+        .emaily{
+            width: 33.3%;
+        }
+        .thomas{
+            width: 33.3%;
+        }
+        .jennie{
+            width: 33.3%;
+        }
+        img{
+            width: 60px;
+            border-radius: 30px;
+            margin-top: 60px;
+        }
+        p{
+            padding-top: 30px;
+            font-family: $font_barlow;
+            color: $DarkGrayishBlue;
+        }
+        h1{
+            padding-top: 30px;
+            font-family: $font_fraunces;
+        }
+        h5{
+            padding-top: 8px;
+            font-family: $font_barlow;
+            color: $DarkGrayishBlue;
+        }
+    }
+}
