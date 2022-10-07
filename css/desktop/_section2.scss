@@ -33,5 +33,16 @@ section{
                 font-size: 17px;
             }
         }
+        .u{
+            width: 22%;
+            height: 1.5vh;
+            margin-left: 112px;
+            margin-top: -8px;
+            border-radius: 30px; 
+            &:hover{
+                cursor: pointer;
+                background: $SoftRed;
+            }
+            } 
     }
 }

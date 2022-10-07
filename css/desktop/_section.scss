@@ -25,8 +25,21 @@ section{
                 font-family: $font_fraunces;
                 padding-top: 45px;
                 padding-left: 120px;
-                font-size: 17px;
+                font-size: 17px; 
+                
             }
+        } 
+        .u{
+            width: 22%;
+            height: 1.5vh;
+            margin-left: 112px;
+            margin-top: -8px;
+            border-radius: 30px; 
+            &:hover{
+                cursor: pointer;
+                background: $Yellow;
+            }
+            } 
         }
         .egg{
             width: 50%;
@@ -36,4 +49,3 @@ section{
             }
         }
     }
-}

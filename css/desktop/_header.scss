@@ -9,12 +9,12 @@ header{
         text-align: center;
         color: $White;
         padding-top: 20px;
-        font-size: 60px;
+        font-size: 50px;
         font-family: $font_fraunces;
     }
     #man{
         margin-left: 580px;
-        margin-top: 70px;
+        margin-top: 90px;
         position: absolute;
     }
     nav{
@@ -24,22 +24,39 @@ header{
         display: flex;
         .nav_image{
             width: 50%;
-            padding-top: 2px;
+            padding-top: 30px;
             padding-left: 25px;
         }
         .nav_list{
             position: relative;
             width: 50%;
             display: flex;
+            padding-top: 30px;
             ul{
                 list-style-type: none;
                 display: flex;
                 gap: 50px;
                 margin-left: 150px;
                 margin-top: 10px;
-                li{
-                    color:$White;
-                    font-family: $font_barlow;
+                color:$White;
+                font-family: $font_barlow;
+                #one{
+                    cursor: pointer;
+                    &:hover{
+                        color: $SoftRed;
+                    }
+                }
+                #two{
+                    cursor: pointer;
+                    &:hover{
+                        color: $SoftRed;
+                    }
+                }
+                #tree{
+                    cursor: pointer;
+                    &:hover{
+                        color: $SoftRed;
+                    }
                 }
             }
             button{
@@ -53,6 +70,10 @@ header{
                 font-size: 15px;
                 text-transform: capitalize;
                 font-family: $font_fraunces;
+                &:hover{
+                    background: $DarkBlue;
+                    color: $White;
+                }
             }
         }
     }
